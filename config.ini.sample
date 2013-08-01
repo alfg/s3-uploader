@@ -1,0 +1,7 @@
+[app]
+ALLOWED_FILETYPES = png,jpg,jpeg,JPG,JPEG,PNG
+AWS_KEY = 
+AWS_SECRET = 
+AWS_BUCKET = 
+UPLOAD_FOLDER = /tmp/
+DEBUG = True
