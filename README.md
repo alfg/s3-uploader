@@ -4,7 +4,7 @@
 
 ## Configure
 
-1. Open config.ini.sample and set the following:
+- Open config.ini.sample and set the following:
 
 ```ini
 [app]
@@ -14,13 +14,11 @@ AWS_SECRET = awssecret
 AWS_BUCKET = bucketname
 UPLOAD_FOLDER = /tmp/
 DEBUG = True ;Set to false if using in a production environment
-
 ```
-
-2. Rename `config.ini.sample` to `config.ini`
-3. `pip install -r requirements.txt` to install dependencies
-3. `python s3-uploader.py` to start the app
-4. `curl --form "fileupload=@filename.jpg" http://127.0.0.1:5000/upload` to test a file upload
+- Rename `config.ini.sample` to `config.ini`
+- `pip install -r requirements.txt` to install dependencies
+- `python s3-uploader.py` to start the app
+- `curl --form "fileupload=@filename.jpg" http://127.0.0.1:5000/upload` to test a file upload
 
 ## Notes
 
