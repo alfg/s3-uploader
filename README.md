@@ -4,7 +4,7 @@
 
 ## Configure
 
-Open config.ini.sample and set the following:
+1. Open config.ini.sample and set the following:
 
 ```ini
 [app]
@@ -17,9 +17,10 @@ DEBUG = True ;Set to false if using in a production environment
 
 ```
 
-1. Rename `config.ini.sample` to `config.ini`
-2. `python s3-uploader.py` to start the app
-3. `curl --form "fileupload=@filename.jpg" http://127.0.0.1:5000/upload` to test a file upload
+2. Rename `config.ini.sample` to `config.ini`
+3. `pip install -r requirements.txt` to install dependencies
+3. `python s3-uploader.py` to start the app
+4. `curl --form "fileupload=@filename.jpg" http://127.0.0.1:5000/upload` to test a file upload
 
 ## Notes
 
